@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/flet_flip_counter/__init__.py
+src/flet_flip_counter/flet_flip_counter.py
+src/flet_flip_counter.egg-info/PKG-INFO
+src/flet_flip_counter.egg-info/SOURCES.txt
+src/flet_flip_counter.egg-info/dependency_links.txt
+src/flet_flip_counter.egg-info/requires.txt
+src/flet_flip_counter.egg-info/top_level.txt
+src/flutter/flet_flip_counter/CHANGELOG.md
+src/flutter/flet_flip_counter/LICENSE
+src/flutter/flet_flip_counter/README.md
+src/flutter/flet_flip_counter/pubspec.lock
+src/flutter/flet_flip_counter/pubspec.yaml
+src/flutter/flet_flip_counter/lib/flet_flip_counter.dart
+src/flutter/flet_flip_counter/lib/src/create_control.dart
+src/flutter/flet_flip_counter/lib/src/flet_flip_counter.dart
