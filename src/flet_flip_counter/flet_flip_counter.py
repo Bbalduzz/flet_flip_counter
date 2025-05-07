@@ -5,6 +5,7 @@ from flet.core.control import OptionalNumber
 from flet.core.types import PaddingValue
 from flet.core.animation import Animation
 from flet.core.text_style import TextStyle
+from flet.core.ref import Ref
 
 
 class FlipCounter(ConstrainedControl):
@@ -36,6 +37,8 @@ class FlipCounter(ConstrainedControl):
         data: Any = None,
         
         # Proprietà di ConstrainedControl
+        ref: Optional[Ref] = None,
+        key: Optional[str] = None,
         left: OptionalNumber = None,
         top: OptionalNumber = None,
         right: OptionalNumber = None,
@@ -43,6 +46,8 @@ class FlipCounter(ConstrainedControl):
     ):
         ConstrainedControl.__init__(
             self,
+            ref=ref,
+            key=key,
             tooltip=tooltip,
             opacity=opacity,
             visible=visible,
